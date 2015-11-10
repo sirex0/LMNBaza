@@ -16,8 +16,8 @@ email=krzysztof.kin@szczecinek.lasy.gov.pl
 
 about=Import "danych do aplikacji mapowych" do bazy spatialite
 
-tracker=na
-repository=na
+tracker=https://github.com/sirex0/LMNBaza.git
+repository=https://github.com/sirex0/LMNBaza.git
 # End of mandatory metadata
 
 # Recommended items:
