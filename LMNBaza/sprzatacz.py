@@ -4,7 +4,7 @@ Created on 6 lis 2015
 @author: krzysztof.kin
 '''
 from pyspatialite import dbapi2
-db = dbapi2.connect("C:\Users\krzysztof.kin\.qgis2\python\plugins\LMNBaza\silp.db")
+db = dbapi2.connect("C:\Users\krzysztof.kin\git\LMNBaza\LMNBaza\silp.db")
 c = db.cursor()
 c.execute("DELETE FROM a_cost_entry")
 c.execute("DELETE FROM c_article")
@@ -153,5 +153,7 @@ c.execute("DELETE FROM g_water_dic")
 c.execute("DELETE FROM i_inv")
 c.execute("DELETE FROM pn_employ")
 c.execute("DELETE FROM v_address")
+db.commit()
+c.execute("VACUUM")
 db.commit()
 db.close()
