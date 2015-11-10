@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/LMNBaza" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
