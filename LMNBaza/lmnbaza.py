@@ -4,7 +4,7 @@
  LMNBaza
                                  A QGIS plugin
  Import danych do aplikacji mapowych
-                             - -------------------
+                             -- -------------------
         begin                : 2015-11-05
         git sha              : $Format:%H$
         copyright            : (C) 2015 by Krzysztof Kin
