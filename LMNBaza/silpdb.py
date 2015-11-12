@@ -66,7 +66,7 @@ class SilpDb(QtCore.QThread):
                 
     def __importuj_plik(self, sciezka_pliku, aplikacja):
         #aplikacja.dlg.processEvents()
-        QApplication.processEvents()
+        #QApplication.processEvents()
         tabela = os.path.basename(sciezka_pliku).split('.')[-2]
         zawartosc = self.__wczytaj_plik(sciezka_pliku)
         
