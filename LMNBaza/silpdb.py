@@ -11,12 +11,13 @@ from pyspatialite import dbapi2
 #import time
 
 from PyQt4.QtGui import QApplication
+from PyQt4 import QtCore
 
 
  
 
 
-class SilpDb(object):
+class SilpDb(QtCore.QThread):
     '''
     classdocs
     '''
@@ -78,7 +79,7 @@ class SilpDb(object):
         aplikacja.dlg.label_wiersze.setText("Wiersze tabeli %s" % tabela)
         
         for linia in zawartosc:
-            #aplikacja.dlg.progressBar_wiersze.setValue(row_now)
+            aplikacja.dlg.progressBar_wiersze.setValue(row_now)
             self.__importuj_wiersz(tabela, linia)
             row_now += 1
             #print aplikacja.dlg.progressBar_wiersze.value()
