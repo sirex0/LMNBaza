@@ -23,7 +23,7 @@
 from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
 from PyQt4.QtGui import QAction, QIcon, QFileDialog
 # Initialize Qt resources from file resources.py
-import resources
+import resources  # @UnusedImport
 # Import the code for the dialog
 from lmnbaza_dialog import LMNBazaDialog
 import os.path
