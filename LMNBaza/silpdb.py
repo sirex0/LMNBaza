@@ -7,16 +7,12 @@ Created on 2 lis 2015
 import codecs
 import os.path
 
-from pyspatialite import dbapi2
-#import time
-
-from PyQt4.QtGui import QApplication
 from PyQt4 import QtCore
+from PyQt4.QtGui import QApplication
+from pyspatialite import dbapi2
 
 
- 
-
-
+#import time
 class SilpDb(QtCore.QThread):
     '''
     classdocs
