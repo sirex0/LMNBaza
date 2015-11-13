@@ -64,7 +64,7 @@ class LMNBaza:
         # Declare instance attributes
         self.actions = []
         self.menu = self.tr(u'&LMNBaza')
-        # TODO: We are going to let the user set this up in a future iteration
+        # We are going to let the user set this up in a future iteration
         self.toolbar = self.iface.addToolBar(u'LMNBaza')
         self.toolbar.setObjectName(u'LMNBaza')
         
